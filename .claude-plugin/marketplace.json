@@ -1,0 +1,14 @@
+{
+  "name": "agentic-agile",
+  "description": "An agent loop that automates what agile was supposed to be.",
+  "owner": {
+    "name": "Juno"
+  },
+  "plugins": [
+    {
+      "name": "agentic-agile",
+      "source": "./",
+      "description": "An agent loop that automates what agile was supposed to be."
+    }
+  ]
+}

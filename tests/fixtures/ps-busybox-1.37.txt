@@ -1,0 +1,121 @@
+    1     0 S     4d23   {systemd} /sbin/init
+    2     0 SW    4d23   [kthreadd]
+    3     2 SW    4d23   [pool_workqueue_]
+    4     2 IW<   4d23   [kworker/R-rcu_g]
+    5     2 IW<   4d23   [kworker/R-rcu_p]
+    6     2 IW<   4d23   [kworker/R-slub_]
+    7     2 IW<   4d23   [kworker/R-netns]
+   10     2 IW<   4d23   [kworker/0:0H-kb]
+   12     2 IW<   4d23   [kworker/R-mm_pe]
+   13     2 IW    4d23   [rcu_tasks_kthre]
+   14     2 IW    4d23   [rcu_tasks_rude_]
+   15     2 IW    4d23   [rcu_tasks_trace]
+   16     2 SW    4d23   [ksoftirqd/0]
+   17     2 IW    4d23   [rcu_preempt]
+   18     2 SW    4d23   [migration/0]
+   19     2 SW    4d23   [idle_inject/0]
+   20     2 SW    4d23   [cpuhp/0]
+   21     2 SW    4d23   [cpuhp/1]
+   22     2 SW    4d23   [idle_inject/1]
+   23     2 SW    4d23   [migration/1]
+   24     2 SW    4d23   [ksoftirqd/1]
+   26     2 IW<   4d23   [kworker/1:0H-kb]
+   27     2 SW    4d23   [cpuhp/2]
+   28     2 SW    4d23   [idle_inject/2]
+   29     2 SW    4d23   [migration/2]
+   30     2 SW    4d23   [ksoftirqd/2]
+   32     2 IW<   4d23   [kworker/2:0H-ev]
+   33     2 SW    4d23   [cpuhp/3]
+   34     2 SW    4d23   [idle_inject/3]
+   35     2 SW    4d23   [migration/3]
+   36     2 SW    4d23   [ksoftirqd/3]
+   38     2 IW<   4d23   [kworker/3:0H-kb]
+   39     2 SW    4d23   [kdevtmpfs]
+   40     2 IW<   4d23   [kworker/R-inet_]
+   41     2 SW    4d23   [kauditd]
+   42     2 SW    4d23   [khungtaskd]
+   44     2 SW    4d23   [oom_reaper]
+   45     2 IW<   4d23   [kworker/R-write]
+   46     2 SW    4d23   [kcompactd0]
+   47     2 SWN   4d23   [ksmd]
+   49     2 SWN   4d23   [khugepaged]
+   50     2 IW<   4d23   [kworker/R-kinte]
+   51     2 IW<   4d23   [kworker/R-kbloc]
+   52     2 IW<   4d23   [kworker/R-blkcg]
+   53     2 IW<   4d23   [kworker/R-tpm_d]
+   54     2 IW<   4d23   [kworker/R-ata_s]
+   55     2 IW<   4d23   [kworker/R-md]
+   56     2 IW<   4d23   [kworker/R-md_bi]
+   57     2 IW<   4d23   [kworker/R-edac-]
+   58     2 IW<   4d23   [kworker/R-devfr]
+   59     2 SW    4d23   [watchdogd]
+   60     2 IW<   4d23   [kworker/2:1H-kb]
+   61     2 SW    4d23   [kswapd0]
+   62     2 SW    4d23   [ecryptfs-kthrea]
+   63     2 IW<   4d23   [kworker/R-kthro]
+   64     2 IW<   4d23   [kworker/R-acpi_]
+   65     2 SW    4d23   [khvcd]
+   67     2 IW<   4d23   [kworker/R-mld]
+   68     2 IW<   4d23   [kworker/R-ipv6_]
+   69     2 IW<   4d23   [kworker/1:1H]
+   76     2 IW<   4d23   [kworker/R-kstrp]
+   79     2 IW<   4d23   [kworker/u9:0]
+   92     2 IW<   4d23   [kworker/R-charg]
+   93     2 SW    4d23   [irq/13-ACPI:Eve]
+   94     2 SW    4d23   [jbd2/vda1-8]
+   95     2 IW<   4d23   [kworker/R-ext4-]
+   97     2 SW    4d23   [hwrng]
+   99     2 IW<   4d23   [kworker/3:1H-kb]
+  116     2 IW<   4d23   [kworker/0:1H-kb]
+  133     1 S<    4d23   /usr/lib/systemd/systemd-journald
+  187     1 S     4d23   /usr/lib/systemd/systemd-udevd
+  193     2 SW    4d23   [psimon]
+  224     2 SW    4d23   [jbd2/vda16-8]
+  225     2 IW<   4d23   [kworker/R-ext4-]
+  349     1 S     4d23   /usr/lib/systemd/systemd-timesyncd
+  370     1 S     4d23   /usr/lib/systemd/systemd-networkd
+  436     1 S     4d23   {dbus-daemon} @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+  443     1 S     4d23   /usr/local/bin/lima-guestagent daemon --vsock-port 2222 --runtime-dir=/run/lima-guestagent
+  445     1 S     4d23   /usr/lib/systemd/systemd-logind
+  451     1 S     4d23   /sbin/agetty -o -p -- \u --noclear - linux
+  452     1 S     4d23   /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+  471     1 S     4d23   /usr/sbin/dnsmasq -x /run/dnsmasq/dnsmasq.pid -u dnsmasq -7 /etc/dnsmasq.d,.dpkg-dist,.dpkg-old,.dpkg-new --local-service --trust-anchor=.,20326,8,2,E06D44B80B8F1D39A95C0B0D7C65D08458E880409BBC683457104237C7F8EC8D --trust-anchor=.,38696,8,2,683D2D0ACB8C9B712A1948B27F741219298D0A450D612C483AF444A4C0FB2B16
+  491     1 S     4d23   /usr/lib/systemd/systemd --user
+  495   491 S     4d23   (sd-pam)
+  737     1 S     4d23   sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+  821     2 SW    4d23   [jbd2/vdb1-8]
+  822     2 IW<   4d23   [kworker/R-ext4-]
+ 1027   737 S     4d23   sshd: user [priv]
+ 1039  1027 S     4d23   sshd: user@notty
+ 1140     1 S     4d23   /usr/bin/containerd
+ 1213     2 SW    4d23   [psimon]
+ 1219     1 S     4d23   /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock --host-gateway-ip=192.168.5.2
+795530     2 IW   21h47   [kworker/2:2-eve]
+838602     2 IW   16h31   [kworker/1:2-ine]
+838609     2 IW   16h31   [kworker/2:0-eve]
+838610     2 IW   16h31   [kworker/0:1-eve]
+838847     2 IW   16h30   [kworker/3:2-eve]
+918329     2 IW    6h44   [kworker/0:0-ine]
+921027     2 IW    6h24   [kworker/3:1-eve]
+947776     2 IW    3h07   [kworker/u8:0-ev]
+953588     2 IW    2h24   [kworker/u8:1-fl]
+963619     2 IW    1h09   [kworker/1:0-eve]
+972346     2 IW    9:59   [kworker/u8:3-ev]
+973676     2 IW    0:45   [kworker/2:1]
+973700     2 IW    0:45   [kworker/3:0]
+973701     2 IW    0:45   [kworker/0:2-eve]
+973769     2 IW    0:31   [kworker/u8:2-wr]
+974025     2 IW    0:28   [kworker/1:1-eve]
+975065   187 S     0:02   (udev-worker)
+975069   187 S     0:02   (udev-worker)
+975078     1 S     0:02   /usr/bin/containerd-shim-runc-v2 -namespace moby -id 192e90aea56fe8062ddcf04f54c4fe219aac1582d22064a28886afe22b139833 -address /run/containerd/containerd.sock
+975101 975078 S     0:02   sh
+975110   187 S     0:02   (udev-worker)
+975111   187 S     0:02   (udev-worker)
+975112   187 S     0:02   (udev-worker)
+975113   187 S     0:02   (udev-worker)
+975114   187 S     0:02   (udev-worker)
+975115   187 S     0:02   (udev-worker)
+975122 975101 S     0:02   sleep 300
+975126 975122 Z     0:02   [sh]
+975132 975101 R     0:01   ps -A -o pid= ppid= stat= etime= args=

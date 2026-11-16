@@ -1,0 +1,12 @@
+{
+  "name": "agentic-agile",
+  "description": "An agent loop that automates what agile was supposed to be.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Juno"
+  },
+  "homepage": "https://github.com/msmfai/agentic-agile",
+  "repository": "https://github.com/msmfai/agentic-agile",
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

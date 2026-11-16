@@ -1,0 +1,25 @@
+#!/bin/sh
+''':'
+# Shell half: pick a Python that works, then re-run this file with it.
+# The system Python comes first: it is the one least likely to be a broken
+# or half-configured install.
+if [ -x /usr/bin/python3 ]; then exec /usr/bin/python3 "$0" "$@"; fi
+for py in python3 python; do
+  if command -v "$py" >/dev/null 2>&1 && "$py" -c 'import sqlite3' >/dev/null 2>&1; then
+    exec "$py" "$0" "$@"
+  fi
+done
+echo "agentic-agile: needs Python 3.9+ with the sqlite3 module" >&2
+exit 1
+':'''
+"""Run Agentic Agile directly from a checkout."""
+
+from pathlib import Path
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "src"))
+
+from agentic_agile.cli import main
+
+raise SystemExit(main())

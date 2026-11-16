@@ -1,0 +1,60 @@
+    1     0 Ss   19-13:36:35 /sbin/launchd
+  118     1 Ss   19-13:36:13 /usr/libexec/logd
+  119     1 Ss   19-13:36:13 /usr/libexec/smd
+  120     1 Ss   19-13:36:13 /usr/libexec/UserEventAgent (System)
+  122     1 Ss   19-13:36:13 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+  123     1 Ss   19-13:36:13 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+  126     1 Ss   19-13:36:13 /usr/sbin/systemstats --daemon
+  128     1 Ss   19-13:36:13 /System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/Support/accessoryupdaterd 120
+  129     1 Ss   19-13:36:13 /usr/libexec/uarpassetmanagerd
+  130     1 Ss   19-13:36:13 /usr/libexec/configd
+  131     1 Ss   19-13:36:13 endpointsecurityd
+  132     1 Ss   19-13:36:13 /System/Library/CoreServices/powerd.bundle/powerd
+  133     1 Ss   19-13:36:13 /usr/libexec/IOMFB_bics_daemon
+  135     1 Ss   19-13:36:13 /usr/libexec/amfid
+  137     1 Ss   19-13:36:13 /usr/libexec/remoted
+  139     1 Ss   19-13:36:13 /usr/libexec/keybagd -t 15
+  140     1 Ss   19-13:36:13 /System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Support/softwareupdated
+  141     1 Ss   19-13:36:13 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+  143     1 Ss   19-13:36:13 /usr/libexec/watchdogd
+  147     1 Ss   19-13:36:13 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+  148     1 Ss   19-13:36:13 /System/Library/CoreServices/iconservicesd
+  149     1 Ss   19-13:36:13 /usr/libexec/kernelmanagerd
+  150     1 Ss   19-13:36:13 /usr/libexec/diskarbitrationd
+  153     1 Ss   19-13:36:13 /usr/libexec/coreduetd
+  154     1 Ss   19-13:36:13 /usr/sbin/syslogd
+  156     1 Ss   19-13:36:13 /usr/libexec/thermalmonitord
+  157     1 Ss   19-13:36:13 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+  158     1 Ss   19-13:36:13 /usr/libexec/xprotectd
+  159     1 Ss   19-13:36:13 /usr/libexec/opendirectoryd
+  160     1 Ss   19-13:36:13 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+  161     1 Ss   19-13:36:13 /System/Library/CoreServices/launchservicesd
+  162     1 Ss   19-13:36:13 /usr/libexec/timed
+  163     1 Ss   19-13:36:13 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+  164     1 Ss   19-13:36:13 /usr/sbin/securityd -i
+  166     1 Ss   19-13:36:13 /usr/libexec/locationd
+  167     1 Ss   19-13:36:13 /usr/libexec/nesessionmanager
+  169     1 Ss   19-13:36:13 autofsd
+  170     1 Ss   19-13:36:13 /usr/libexec/dasd
+  171     1 Ss   19-13:36:13 /usr/libexec/corerepaird
+  173     1 Ss   19-13:36:13 /usr/sbin/distnoted daemon
+  174     1 Ss   19-13:36:13 /System/Library/PrivateFrameworks/AppleCredentialManager.framework/AppleCredentialManagerDaemon
+  176     1 Ss   19-13:36:13 /usr/libexec/dirhelper
+  177     1 Ss   19-13:36:13 /System/Library/CoreServices/logind
+  178     1 Ss   19-13:36:13 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+  179     1 Ss   19-13:36:13 /usr/sbin/KernelEventAgent
+  180     1 Ss   19-13:36:13 /usr/libexec/peakpowermanagerd
+  181     1 Ss   19-13:36:13 /usr/libexec/usermanagerd -t 15
+  184     1 Ss   19-13:36:13 /usr/sbin/notifyd
+  185     1 Ss   19-13:36:13 /usr/libexec/sandboxd
+  186     1 Ss   19-13:36:13 /usr/libexec/corebrightnessd --launchd
+  187     1 Ss   19-13:36:13 /usr/libexec/AirPlayXPCHelper
+  188     1 Ss   19-13:36:13 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/com.apple.cmio.registerassistantservice
+  189     1 Ss   19-13:36:13 aslmanager
+  190     1 Ss   19-13:36:12 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+  191     1 Ss   19-13:36:12 /System/Library/PrivateFrameworks/TCC.framework/Support/tccd system
+  192     1 Ss   19-13:36:12 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+  193     1 Ss   19-13:36:12 /usr/libexec/fskitd
+  194     1 Ss   19-13:36:12 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+  195     1 Ss   19-13:36:12 /usr/sbin/cfprefsd daemon
+  196     1 Ss   19-13:36:12 /System/Library/CoreServices/coreservicesd

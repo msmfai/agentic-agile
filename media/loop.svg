@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" width="1000" height="720" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="t">The Agentic Agile loop</title>
+<desc id="d">A loop of four steps around a fixed goal. One: write the plan as a graph of tasks. Two: choose the ready task that can teach you the most, shown as one green task in the graph. Three: do that one task and check how the result works. Four: keep the finding and clear the rest of the plan, then go back to step one. When the plan is empty and the goal is met, the work is done.</desc>
+<defs>
+<marker id="a-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#67e8df"/></marker>
+<marker id="a-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#8fa3b8"/></marker>
+<marker id="a-dim" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b3a4d"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#4ade80"/></marker>
+</defs>
+<rect width="1000" height="720" rx="18" fill="#0b1018"/>
+<rect x="40" y="40" width="400" height="236" rx="14" fill="#111a26" stroke="#2b3a4d" stroke-width="1.5"/>
+<circle cx="70" cy="72" r="14" fill="none" stroke="#67e8df" stroke-width="1.8"/>
+<text x="70" y="77" text-anchor="middle" font-size="15" font-weight="700" fill="#67e8df">1</text>
+<text x="94" y="78" font-size="20" font-weight="700" fill="#e7edf5">Write the plan</text>
+<text x="64" y="106" font-size="13.5" fill="#8fa3b8">Write the tasks that the goal needs, and their order.</text>
+<line x1="147" y1="141.0" x2="207" y2="159.0" stroke="#8fa3b8" stroke-width="1.6" marker-end="url(#a-muted)"/>
+<line x1="147" y1="187.0" x2="207" y2="159.0" stroke="#8fa3b8" stroke-width="1.6" marker-end="url(#a-muted)"/>
+<line x1="147" y1="187.0" x2="207" y2="215.0" stroke="#8fa3b8" stroke-width="1.6" marker-end="url(#a-muted)"/>
+<line x1="147" y1="233.0" x2="207" y2="215.0" stroke="#8fa3b8" stroke-width="1.6" marker-end="url(#a-muted)"/>
+<line x1="269" y1="159.0" x2="329" y2="187.0" stroke="#8fa3b8" stroke-width="1.6" marker-end="url(#a-muted)"/>
+<line x1="269" y1="215.0" x2="329" y2="187.0" stroke="#8fa3b8" stroke-width="1.6" marker-end="url(#a-muted)"/>
+<rect x="89" y="128" width="58" height="26" rx="6" fill="none" stroke="#67e8df" stroke-width="1.8" opacity="1"/>
+<rect x="89" y="174" width="58" height="26" rx="6" fill="none" stroke="#67e8df" stroke-width="1.8" opacity="1"/>
+<rect x="89" y="220" width="58" height="26" rx="6" fill="none" stroke="#67e8df" stroke-width="1.8" opacity="1"/>
+<rect x="211" y="146" width="58" height="26" rx="6" fill="none" stroke="#67e8df" stroke-width="1.8" opacity="1"/>
+<rect x="211" y="202" width="58" height="26" rx="6" fill="none" stroke="#67e8df" stroke-width="1.8" opacity="1"/>
+<rect x="333" y="174" width="58" height="26" rx="6" fill="none" stroke="#67e8df" stroke-width="1.8" opacity="1"/>
+<text x="240.0" y="262" text-anchor="middle" font-size="12.5" fill="#8fa3b8">a graph of tasks, your best estimate from what you know now</text>
+<rect x="560" y="40" width="400" height="236" rx="14" fill="#111a26" stroke="#2b3a4d" stroke-width="1.5"/>
+<circle cx="590" cy="72" r="14" fill="none" stroke="#67e8df" stroke-width="1.8"/>
+<text x="590" y="77" text-anchor="middle" font-size="15" font-weight="700" fill="#67e8df">2</text>
+<text x="614" y="78" font-size="20" font-weight="700" fill="#e7edf5">Choose a task</text>
+<text x="584" y="106" font-size="13.5" fill="#8fa3b8">Choose the ready task that can teach you the most.</text>
+<line x1="667" y1="141.0" x2="727" y2="159.0" stroke="#2b3a4d" stroke-width="1.6" marker-end="url(#a-dim)"/>
+<line x1="667" y1="187.0" x2="727" y2="159.0" stroke="#2b3a4d" stroke-width="1.6" marker-end="url(#a-dim)"/>
+<line x1="667" y1="187.0" x2="727" y2="215.0" stroke="#2b3a4d" stroke-width="1.6" marker-end="url(#a-dim)"/>
+<line x1="667" y1="233.0" x2="727" y2="215.0" stroke="#2b3a4d" stroke-width="1.6" marker-end="url(#a-dim)"/>
+<line x1="789" y1="159.0" x2="849" y2="187.0" stroke="#2b3a4d" stroke-width="1.6" marker-end="url(#a-dim)"/>
+<line x1="789" y1="215.0" x2="849" y2="187.0" stroke="#2b3a4d" stroke-width="1.6" marker-end="url(#a-dim)"/>
+<rect x="609" y="128" width="58" height="26" rx="6" fill="none" stroke="#f5b942" stroke-width="1.8" opacity="1"/>
+<rect x="609" y="174" width="58" height="26" rx="6" fill="#4ade80" stroke="#4ade80" stroke-width="1.8" opacity="1"/>
+<rect x="609" y="220" width="58" height="26" rx="6" fill="none" stroke="#f5b942" stroke-width="1.8" opacity="1"/>
+<rect x="731" y="146" width="58" height="26" rx="6" fill="none" stroke="#2b3a4d" stroke-width="1.8" opacity="1"/>
+<rect x="731" y="202" width="58" height="26" rx="6" fill="none" stroke="#2b3a4d" stroke-width="1.8" opacity="1"/>
+<rect x="853" y="174" width="58" height="26" rx="6" fill="none" stroke="#2b3a4d" stroke-width="1.8" opacity="1"/>
+<text x="638.0" y="192" text-anchor="middle" font-size="12" font-weight="700" fill="#0b1018">next</text>
+<rect x="584" y="251" width="12" height="12" rx="3" fill="#4ade80" stroke="#4ade80" stroke-width="1.8"/>
+<text x="602" y="262" font-size="12.5" fill="#8fa3b8">teaches the most</text>
+<rect x="720" y="251" width="12" height="12" rx="3" fill="none" stroke="#f5b942" stroke-width="1.8"/>
+<text x="738" y="262" font-size="12.5" fill="#8fa3b8">ready</text>
+<rect x="792" y="251" width="12" height="12" rx="3" fill="none" stroke="#2b3a4d" stroke-width="1.8"/>
+<text x="810" y="262" font-size="12.5" fill="#8fa3b8">waits for other tasks</text>
+<rect x="560" y="388" width="400" height="236" rx="14" fill="#111a26" stroke="#2b3a4d" stroke-width="1.5"/>
+<circle cx="590" cy="420" r="14" fill="none" stroke="#67e8df" stroke-width="1.8"/>
+<text x="590" y="425" text-anchor="middle" font-size="15" font-weight="700" fill="#67e8df">3</text>
+<text x="614" y="426" font-size="20" font-weight="700" fill="#e7edf5">Do one task</text>
+<text x="584" y="454" font-size="13.5" fill="#8fa3b8">Do that one task. Check how the result works.</text>
+<rect x="598" y="504" width="96" height="42" rx="8" fill="#4ade80"/>
+<text x="646" y="530" text-anchor="middle" font-size="14" font-weight="700" fill="#0b1018">one task</text>
+<line x1="698" y1="525" x2="742" y2="525" stroke="#8fa3b8" stroke-width="1.8" marker-end="url(#a-muted)"/>
+<rect x="750" y="478" width="180" height="94" rx="8" fill="#0b1018" stroke="#2b3a4d" stroke-width="1.5"/>
+<text x="764" y="499" font-size="10.5" font-weight="700" fill="#8fa3b8" letter-spacing="1">WHAT HAPPENED</text>
+<text x="766" y="522" font-size="13" font-weight="700" fill="#4ade80">✓</text>
+<text x="784" y="522" font-size="13" fill="#e7edf5">tests pass</text>
+<text x="766" y="541" font-size="13" font-weight="700" fill="#4ade80">✓</text>
+<text x="784" y="541" font-size="13" fill="#e7edf5">result checked</text>
+<text x="766" y="560" font-size="13" font-weight="700" fill="#f5b942">?</text>
+<text x="784" y="560" font-size="13" fill="#e7edf5">open question</text>
+<text x="760.0" y="610" text-anchor="middle" font-size="12.5" fill="#8fa3b8">look at how it works, in addition to the tests</text>
+<rect x="40" y="388" width="400" height="236" rx="14" fill="#111a26" stroke="#2b3a4d" stroke-width="1.5"/>
+<circle cx="70" cy="420" r="14" fill="none" stroke="#67e8df" stroke-width="1.8"/>
+<text x="70" y="425" text-anchor="middle" font-size="15" font-weight="700" fill="#67e8df">4</text>
+<text x="94" y="426" font-size="20" font-weight="700" fill="#e7edf5">Keep the finding. Clear the plan.</text>
+<text x="64" y="454" font-size="13.5" fill="#8fa3b8">The finding is permanent. The plan was an estimate.</text>
+<path d="M70 476h62l18 18v84h-80z" fill="#0b1018" stroke="#67e8df" stroke-width="1.8"/>
+<path d="M132 476v18h18" fill="none" stroke="#67e8df" stroke-width="1.8"/>
+<line x1="82" y1="512" x2="130" y2="512" stroke="#67e8df" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="82" y1="527" x2="138" y2="527" stroke="#67e8df" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="82" y1="542" x2="122" y2="542" stroke="#67e8df" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="82" y1="557" x2="134" y2="557" stroke="#67e8df" stroke-width="2.4" stroke-linecap="round"/>
+<text x="110" y="610" text-anchor="middle" font-size="12.5" font-weight="700" fill="#67e8df">finding · kept</text>
+<line x1="248" y1="489.0" x2="308" y2="507.0" stroke="#2b3a4d" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#a-dim)"/>
+<line x1="248" y1="535.0" x2="308" y2="507.0" stroke="#2b3a4d" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#a-dim)"/>
+<line x1="248" y1="535.0" x2="308" y2="563.0" stroke="#2b3a4d" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#a-dim)"/>
+<line x1="248" y1="581.0" x2="308" y2="563.0" stroke="#2b3a4d" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#a-dim)"/>
+<line x1="370" y1="507.0" x2="430" y2="535.0" stroke="#2b3a4d" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#a-dim)"/>
+<line x1="370" y1="563.0" x2="430" y2="535.0" stroke="#2b3a4d" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#a-dim)"/>
+<rect x="190" y="476" width="58" height="26" rx="6" fill="none" stroke="#8fa3b8" stroke-width="1.8" opacity="0.6" stroke-dasharray="4 4"/>
+<rect x="190" y="522" width="58" height="26" rx="6" fill="none" stroke="#4ade80" stroke-width="1.8" opacity="1"/>
+<rect x="190" y="568" width="58" height="26" rx="6" fill="none" stroke="#8fa3b8" stroke-width="1.8" opacity="0.6" stroke-dasharray="4 4"/>
+<rect x="312" y="494" width="58" height="26" rx="6" fill="none" stroke="#8fa3b8" stroke-width="1.8" opacity="0.6" stroke-dasharray="4 4"/>
+<rect x="312" y="550" width="58" height="26" rx="6" fill="none" stroke="#8fa3b8" stroke-width="1.8" opacity="0.6" stroke-dasharray="4 4"/>
+<rect x="434" y="522" width="58" height="26" rx="6" fill="none" stroke="#8fa3b8" stroke-width="1.8" opacity="0.6" stroke-dasharray="4 4"/>
+<text x="219.0" y="540" text-anchor="middle" font-size="13" font-weight="700" fill="#4ade80">✓</text>
+<line x1="286" y1="474" x2="492" y2="596" stroke="#f87171" stroke-width="2.2" opacity="0.85" stroke-linecap="round"/>
+<line x1="492" y1="474" x2="286" y2="596" stroke="#f87171" stroke-width="2.2" opacity="0.85" stroke-linecap="round"/>
+<text x="380" y="610" text-anchor="middle" font-size="12.5" font-weight="700" fill="#f87171">waiting tasks · cleared</text>
+<line x1="446" y1="80" x2="552" y2="80" stroke="#67e8df" stroke-width="3" marker-end="url(#a-teal)"/>
+<line x1="900" y1="282" x2="900" y2="380" stroke="#67e8df" stroke-width="3" marker-end="url(#a-teal)"/>
+<line x1="554" y1="428" x2="448" y2="428" stroke="#67e8df" stroke-width="3" marker-end="url(#a-teal)"/>
+<line x1="100" y1="382" x2="100" y2="284" stroke="#67e8df" stroke-width="3" marker-end="url(#a-teal)"/>
+<text x="116" y="337.0" font-size="13" fill="#67e8df">then write</text>
+<text x="116" y="354.0" font-size="13" fill="#67e8df">a new plan</text>
+<rect x="390.0" y="302.0" width="300" height="60" rx="30" fill="#0b1018" stroke="#f5b942" stroke-width="2"/>
+<text x="540.0" y="328.0" text-anchor="middle" font-size="17" font-weight="700" fill="#f5b942">THE GOAL</text>
+<text x="540.0" y="348.0" text-anchor="middle" font-size="12.5" fill="#8fa3b8">you set it · it stays fixed</text>
+<line x1="240" y1="628" x2="240" y2="658" stroke="#4ade80" stroke-width="2.4" stroke-dasharray="5 4" marker-end="url(#a-green)"/>
+<rect x="70" y="664" width="340" height="36" rx="18" fill="none" stroke="#4ade80" stroke-width="1.8"/>
+<text x="240" y="687" text-anchor="middle" font-size="13.5" fill="#4ade80">the plan is empty and the goal is met → done</text>
+</svg>

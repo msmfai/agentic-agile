@@ -1,0 +1,36 @@
+{
+  "name": "agentic-agile",
+  "version": "0.1.0",
+  "description": "An agent loop that automates what agile was supposed to be.",
+  "author": {
+    "name": "Marin Moran"
+  },
+  "license": "MIT",
+  "keywords": [
+    "agents",
+    "goals",
+    "dag",
+    "planning",
+    "codex",
+    "claude"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agentic Agile",
+    "shortDescription": "Automates what agile was supposed to be",
+    "longDescription": "You set the goal. The agent writes a plan, does one task, records what it learned, deletes the rest of the plan, and writes a new plan.",
+    "developerName": "Marin Moran",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Agentic Agile for this goal.",
+      "What is Agentic Agile working on, and why?",
+      "Continue the Agentic Agile loop."
+    ]
+  },
+  "hooks": "./hooks/codex.json",
+  "homepage": "https://github.com/msmfai/agentic-agile"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agentic Agile"
+  short_description: "Automates what agile was supposed to be"
+  default_prompt: "Use $agentic-agile for this goal."

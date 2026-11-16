@@ -1,0 +1,30 @@
+{
+  "description": "Give the agent its current Agentic Agile instructions and keep it working until the job is finished.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|compact|clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/bin/agentic-agile\" hook-context --host codex",
+            "statusMessage": "Loading the Agentic Agile operative goal",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/bin/agentic-agile\" hook-stop --host codex",
+            "statusMessage": "Checking the Agentic Agile goal",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

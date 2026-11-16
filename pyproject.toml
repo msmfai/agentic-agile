@@ -1,0 +1,37 @@
+[project]
+name = "agentic-agile"
+version = "0.1.0"
+description = "An agent loop that automates what agile was supposed to be."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Marin Moran"}]
+keywords = ["agents", "goals", "dag", "planning", "claude-code", "codex"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: MacOS",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development",
+]
+
+[project.urls]
+Homepage = "https://github.com/msmfai/agentic-agile"
+Issues = "https://github.com/msmfai/agentic-agile/issues"
+
+[project.scripts]
+agentic-agile = "agentic_agile.cli:main"
+agile = "agentic_agile.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
